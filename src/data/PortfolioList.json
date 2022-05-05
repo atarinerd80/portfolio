@@ -1,0 +1,22 @@
+{
+    "portfolio": [
+        {
+            "title": "Tom's Barber Shop & Salon",
+            "tech": "Front-End Development",
+            "image": "images/portfolio/tomsbarbershop.png",
+            "website": "https://tombarbershop.com"
+        },
+        {
+            "title": "KY Tanks",
+            "tech": "Front-End Development",
+            "image": "images/portfolio/kytanks.png",
+            "website": "https://kytanks.com"
+        },
+        {
+            "title": "The Parker Agency",
+            "tech": "Full Stack Development",
+            "image": "images/portfolio/parker.png",
+            "website": "https://theparkeragency.com"
+        }
+    ]
+}

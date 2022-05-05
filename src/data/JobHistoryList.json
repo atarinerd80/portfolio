@@ -1,0 +1,28 @@
+{
+    "jobHistory": [
+        {
+            "years": "2013 - 2018",
+            "title": "CFO / Software Developer",
+            "company": "SlagleSoft, LLC",
+            "description": "I managed both projects and finances within the company. On the project side, I took on development for a wide array of projects, including full-stack and mobile development. For finances, I managed all financing, including bookkeeping, tax preparation, and payroll."
+        }, 
+        {
+            "years": "2014 - 2017",
+            "title": "Software Developer",
+            "company": "Wendell Wilson Consulting",
+            "description": "I worked directly with clients on an array of different project types. I created mobile, web, and desktop applications with a multitude of different frameworks and technologies."
+        }, 
+        {
+            "years": "2017",
+            "title": "Web Developer",
+            "company": "Camping World",
+            "description": "I began this position with a task of rewriting the current company website to be fully responsive, allowing them to have a single site, rather than a separate mobile site. After that project was finished, I moved over to short-term support, handling bug fixes and any user-reported errors."
+        },
+        {
+            "years": "2019 - Present",
+            "title": "Master Barber",
+            "company": "Self Employed",
+            "description": "After graduating barber school, I began working to provide barbering services, including haircuts and straight razor shaves. In 2020, I ventured into opening my own barber shop, and have successfully built it up to provide careers for several industry professionals."
+        }
+    ]
+}
