@@ -17,6 +17,12 @@
             "tech": "Full Stack Development",
             "image": "images/portfolio/parker.png",
             "website": "https://theparkeragency.com"
+        },
+        {
+            "title": "JS Ink",
+            "tech": "Front-End Development",
+            "image": "images/portfolio/jsink.png",
+            "website": "https://jsinkstudio.com"
         }
     ]
 }
