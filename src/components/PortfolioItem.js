@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaSearch } from "react-icons/fa";
+import { FaSearch, FaLink } from "react-icons/fa";
 
 export class PortfolioItem extends React.Component {
     render() {
@@ -9,8 +9,8 @@ export class PortfolioItem extends React.Component {
                 <figure>
                     <img src={this.props.item.image} alt="" className="img-fluid" />
                     <div className="figure-link">
-                        <a href={this.props.item.github} className="zoom bg-pink text-white" target="_blank">
-                            <FaGithub />
+                        <a href={this.props.item.website} className="zoom bg-pink text-white" target="_blank">
+                            <FaLink />
                         </a>
                         <a href={this.props.item.image} className="bg-purple text-white" target="_blank">
                             <FaSearch />

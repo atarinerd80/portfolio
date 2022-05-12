@@ -9,6 +9,7 @@ import Experience from './pages/Experience';
 import Skills from './pages/Skills';
 import Portfolio from './pages/Portfolio';
 import Footer from './pages/Footer';
+import TestClass from './pages/TestClass';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
         <Experience />
         <Skills />
         <Portfolio />
+        <TestClass />
         <Footer />
       </div>
     </div>
