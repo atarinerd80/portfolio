@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Navbar, Container } from 'react-bootstrap';
+import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
 
 export class Header extends React.Component {
     render() {
@@ -19,6 +19,10 @@ export class Header extends React.Component {
                                             <Nav.Link href="#experience">Resume</Nav.Link>
                                             <Nav.Link href="#skills">Skills</Nav.Link>
                                             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                                            <NavDropdown title="Local Projects" id="basic-nav-dropdown">
+                                                <NavDropdown.Item href="#weather">Weather API</NavDropdown.Item>
+                                                <NavDropdown.Item href="#">Another action</NavDropdown.Item>
+                                            </NavDropdown>
                                         </Nav>
                                     </Navbar.Collapse>
                                 </Container>

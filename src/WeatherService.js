@@ -13,10 +13,9 @@ class WeatherService {
         
             try {
                 const res = await axios.get(options.url, { headers: options.headers, params: options.params  });
-                console.log(res.data);
-                return res.data;
+                return res;
             } catch (error) {
-                console.log(error);
+                return error.response;
             }
     }
 }
