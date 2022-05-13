@@ -269,11 +269,20 @@ export class TicTacToeGame extends React.Component {
     render() {
         return (
             <>
-                <p>{this.state.turnIdentifier}</p>
-                <p style={{color: this.state.textColor}}>{this.state.gameText}</p>
-                <canvas id="tictactoeCanvas" width="300" height="300" onClick={this.handleClick}></canvas>
-                <br />
-                <button onClick={this.resetCanvas}>Reset Game</button>
+                <div className="row text-center">
+                    <div className="col-md-12">
+                        <div className="card bg-light mb-3">
+                            <div className="card-header">
+                                <button onClick={this.resetCanvas}>Reset Game</button>
+                            </div>
+                            <div className="card-body">
+                                <p>{this.state.turnIdentifier}</p>
+                                <p style={{color: this.state.textColor}}>{this.state.gameText}</p>
+                                <canvas id="tictactoeCanvas" width="300" height="300" onClick={this.handleClick}></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </>
         );
     }
