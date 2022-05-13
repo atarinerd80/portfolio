@@ -1,0 +1,24 @@
+{
+    "winningCombos" : {
+        "circle" : [
+            ["LeftTopCircle", "LeftCenterCircle", "LeftBottomCircle"],
+            ["CenterTopCircle", "CenterCenterCircle", "CenterBottomCircle"],
+            ["RightTopCircle", "RightCenterCircle", "RightBottomCircle"],
+            ["LeftTopCircle", "CenterTopCircle", "RightTopCircle"],
+            ["LeftCenterCircle", "CenterCenterCircle", "RightCenterCircle"],
+            ["LeftBottomCircle", "CenterBottomCircle", "RightBottomCircle"],
+            ["LeftTopCircle", "CenterCenterCircle", "RightBottomCircle"],
+            ["LeftBottomCircle", "CenterCenterCircle", "RightTopCircle"]
+        ],
+        "cross" : [
+            ["LeftTopCross", "LeftCenterCross", "LeftBottomCross"],
+            ["CenterTopCross", "CenterCenterCross", "CenterBottomCross"],
+            ["RightTopCross", "RightCenterCross", "RightBottomCross"],
+            ["LeftTopCross", "CenterTopCross", "RightTopCross"],
+            ["LeftCenterCross", "CenterCenterCross", "RightCenterCross"],
+            ["LeftBottomCross", "CenterBottomCross", "RightBottomCross"],
+            ["LeftTopCross", "CenterCenterCross", "RightBottomCross"],
+            ["LeftBottomCross", "CenterCenterCross", "RightTopCross"]
+        ]
+    }
+}
