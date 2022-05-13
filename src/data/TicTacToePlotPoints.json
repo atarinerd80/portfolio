@@ -1,0 +1,23 @@
+{
+    "plotPoints": {
+        "cross": {
+            "leftTop": {
+                "xStart": 20,
+                "xEnd": 80
+            },
+            "center": {
+                "xStart": 120,
+                "xEnd": 180
+            },
+            "rightBottom": {
+                "xStart": 220,
+                "xEnd": 280
+            }
+        },
+        "circle": {
+            "leftTop": 50,
+            "center": 150,
+            "rightBottom": 250
+        }
+    }
+}

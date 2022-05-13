@@ -10,6 +10,7 @@ import Skills from './pages/Skills';
 import Portfolio from './pages/Portfolio';
 import Footer from './pages/Footer';
 import Weather from './pages/Weather';
+import TicTacToe from './pages/TicTacToe';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
         <Skills />
         <Portfolio />
         <Weather />
+        <TicTacToe />
         <Footer />
       </div>
     </div>
