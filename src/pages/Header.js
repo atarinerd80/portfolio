@@ -22,6 +22,7 @@ export class Header extends React.Component {
                                             <NavDropdown title="Local Projects" id="basic-nav-dropdown">
                                                 <NavDropdown.Item href="#weather">Weather API</NavDropdown.Item>
                                                 <NavDropdown.Item href="#tictactoe">Tic-Tac-Toe Game</NavDropdown.Item>
+                                                <NavDropdown.Item href="#ecommerce">Mock Ecommerce Component</NavDropdown.Item>
                                             </NavDropdown>
                                         </Nav>
                                     </Navbar.Collapse>

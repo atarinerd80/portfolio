@@ -11,6 +11,7 @@ import Portfolio from './pages/Portfolio';
 import Footer from './pages/Footer';
 import Weather from './pages/Weather';
 import TicTacToe from './pages/TicTacToe';
+import Ecommerce from './pages/Ecommerce';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,7 @@ root.render(
         <Portfolio />
         <Weather />
         <TicTacToe />
+        <Ecommerce />
         <Footer />
       </div>
     </div>

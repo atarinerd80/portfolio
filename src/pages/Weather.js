@@ -1,5 +1,5 @@
 import React from 'react';
-import WeatherService from '../WeatherService';
+import WeatherService from '../services/WeatherService';
 import WeatherCard from '../components/WeatherCard';
 
 export class Weather extends React.Component {
