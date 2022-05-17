@@ -22,9 +22,6 @@ export class About extends React.Component {
                             <p className="text-medium">I worked full-time as a software developer until 2017, when I made the switch to freelance work, alongside my career in barbering. I ensured to continue learning about new frameworks and working on projects in order to keep my skills handy.</p>
                             <p className="text-medium">I have now built up my own self-running barber shop, and am excited to make my way back into full time web development.</p>
                         </div>
-                        <div className="col-12 mt-4 text-center">
-                            <a href="#" className="btn btn-purple btn-small mt-5 shadow">Download Resume <i className="fas fa-download"></i></a>
-                        </div>
                         </div>
                     </div>
                 </section>

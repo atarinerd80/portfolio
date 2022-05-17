@@ -66,7 +66,7 @@ export class PaginatedProducts extends React.Component {
         return (
             <>
                 <div className="row">
-                <div className="col-md-4 offset-md-4">
+                <div className="col-md-6 offset-md-3">
                     <form className="center" onSubmit={this.handleSubmit}>
                       <input type="text" name="search" id="productSearch" onChange={this.handleChange} />  
                       <button onClick={this.handleClick}>Search</button>

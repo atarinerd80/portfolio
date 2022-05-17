@@ -9,7 +9,7 @@ export class Home extends React.Component {
             location: 'Bronston, KY',
             email: 'tom.slagle@gmail.com',
             phone: '(606) 875-8906',
-            interests: 'Video Games, Dungeons & Dragons, Horror Movies'
+            interests: 'Video Games, D&D, Horror Movies'
         };
 
         return (
